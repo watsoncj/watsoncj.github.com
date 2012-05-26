@@ -12,10 +12,22 @@ tagline: about
 
 <hr/>
 
-## Don't cross the streams
 
-<blockquote id="lifestream">
-</blockquote>
+<div class="row">
+  <div class="span8">
+    <h2>Don't cross the streams</h2>
+    <div id="lifestream">
+    </div>
+  </div>
+<!--  <form class="span3">
+    <div class="control-group">
+      <label><h2>Contact</h2></label><textarea class="input-large">Howdy!</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Save changes</button>
+  </form>
+-->
+</div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js">
 </script>
@@ -55,3 +67,4 @@ tagline: about
   });
 
 </script>
+

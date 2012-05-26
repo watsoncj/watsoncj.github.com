@@ -69,13 +69,12 @@ html, body {
 	color:#FFF;
 }
 
-.content h1, .content h2, .content h3, content h4 {
-	margin-bottom: 25px;
+#lifestream ul {
+	margin-left: 0;
 }
-	
-.lifestream li {
+#lifestream li {
 	list-style-type: none;
-	padding-left: 0;
+	padding: 0;
 	margin-left: 0;
 }
 
