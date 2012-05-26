@@ -14,7 +14,7 @@ tagline: about
 
 
 <div class="row">
-  <div class="span8">
+  <div class="span5">
     <h2>Don't cross the streams</h2>
     <div id="lifestream">
     </div>
@@ -42,6 +42,7 @@ tagline: about
 <script>
 
   $("#lifestream").lifestream({
+    limit: 300,
     list:[
       {
         service: "github",

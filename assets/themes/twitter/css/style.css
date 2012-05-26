@@ -73,20 +73,11 @@ html, body {
 	margin-left: 0;
 }
 #lifestream li {
+	line-height: 1.2em;
+	padding: 5px 3px 5px 25px;
 	list-style-type: none;
-	padding: 0;
-	margin-left: 0;
-}
-
-header {
-  background: #22cc00;
-  color: #eee;
-  margin: -20px -20px 20px -20px;
-  font-size: 30px;
-  text-rendering: optimizelegibility;
-  font-weight: bold;
-  line-height: 36px;
-  padding: 10px;
+	background-repeat: no-repeat;
+	background-position: left center;
 }
 
 avatar {
