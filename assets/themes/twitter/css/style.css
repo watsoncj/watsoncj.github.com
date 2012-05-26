@@ -78,6 +78,7 @@ html, body {
 	list-style-type: none;
 	background-repeat: no-repeat;
 	background-position: left center;
+	border-bottom: 1px solid #eee;
 }
 
 avatar {

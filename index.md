@@ -14,7 +14,7 @@ tagline: about
 
 
 <div class="row">
-  <div class="span5">
+  <div class="offset3 span6">
     <h2>Don't cross the streams</h2>
     <div id="lifestream">
     </div>
