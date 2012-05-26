@@ -68,4 +68,31 @@ html, body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
+
+.content h1, .content h2, .content h3, content h4 {
+	margin-bottom: 25px;
+}
 	
+.lifestream li {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+header {
+  background: #22cc00;
+  color: #eee;
+  margin: -20px -20px 20px -20px;
+  font-size: 30px;
+  text-rendering: optimizelegibility;
+  font-weight: bold;
+  line-height: 36px;
+  padding: 10px;
+}
+
+avatar {
+  display: block;
+  background-image: url(/assets/img/avatar.jpg);
+  width: 70px;
+  height: 70px;
+}
