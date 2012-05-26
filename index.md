@@ -5,9 +5,12 @@ tagline: about
 ---
 {% include JB/setup %}
 
-<header>Hi, I'm Casey!</header>
+<div class="page-header">
+  <h1>Hi, I'm Casey <small>Dad, Husband and Programmer</small></h1>
+</div>
+##I build <em>epic</em> software with the <em>rad</em> people at <a href="http://readytalk.com">ReadyTalk</a>
 
-#I build *epic* software with the *rad* people at [ReadyTalk](http://readytalk.com)
+<hr/>
 
 ## Don't cross the streams
 
