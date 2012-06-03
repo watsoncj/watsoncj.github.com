@@ -101,6 +101,8 @@ JB :
         tracking_id : 'UA-32316325-1'
     getclicky :
       site_id : 
+    guages :
+        data_site_id : '4fcae76f613f5d57c6000013'
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
 
