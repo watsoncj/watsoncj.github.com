@@ -96,15 +96,15 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
-    google : 
-        tracking_id : 'UA-32316325-1'
-    getclicky :
-      site_id : 
+#    provider : google 
+#    google : 
+#        tracking_id : 'UA-32316325-1'
+#    getclicky :
+#      site_id : 
     guages :
         data_site_id : '4fcae76f613f5d57c6000013'
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
+#    mixpanel :
+#        token : '_MIXPANEL_TOKEN_'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
