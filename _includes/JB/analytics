@@ -5,6 +5,8 @@
   {% include JB/analytics-providers/google %}
 {% when "getclicky" %}
   {% include JB/analytics-providers/getclicky %}
+%{ when "guages" %}
+  {% include JB/analytics-providers/guages %}
 {% when "mixpanel" %}
   {% include JB/analytics-providers/mixpanel %}
 {% when "custom" %}
