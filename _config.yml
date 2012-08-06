@@ -96,7 +96,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-#    provider : google 
+    provider : mixpanel 
 #    google : 
 #        tracking_id : 'UA-32316325-1'
 #    getclicky :
@@ -112,7 +112,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : mixpanel
+    provider : false
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
