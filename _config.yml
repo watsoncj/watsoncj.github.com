@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Casey Watson
-tagline: keepin it real
+title : Eating Crayons
+tagline : 
 author :
   name : Casey Watson
   email : watsoncj@gmail.com
@@ -101,10 +101,10 @@ JB :
 #        tracking_id : 'UA-32316325-1'
 #    getclicky :
 #      site_id : 
-    guages :
-        data_site_id : '4fcae76f613f5d57c6000013'
-#    mixpanel :
-#        token : '_MIXPANEL_TOKEN_'
+#    guages :
+#        data_site_id : '4fcae76f613f5d57c6000013'
+    mixpanel :
+        token : 'ee87380455b5f4ccc25eea9088dca45c'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
@@ -112,7 +112,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : mixpanel
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
