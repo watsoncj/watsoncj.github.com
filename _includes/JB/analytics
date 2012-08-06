@@ -9,6 +9,10 @@
   {% include JB/analytics-providers/guages %}
 {% when "mixpanel" %}
   {% include JB/analytics-providers/mixpanel %}
+
+  <script type="text/javascript">
+    mpq.track("{{ page.title }} Page Loaded");
+  </script>
 {% when "custom" %}
   {% include custom/analytics %}
 {% endcase %}
